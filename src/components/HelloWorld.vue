@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h1>TESTING GITHUB PAGES WITH VUE.JS</h1>
+    <h1>SSPAIRAL</h1>
   </div>
 </template>
 
