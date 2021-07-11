@@ -37,7 +37,7 @@ img {
 .about-desc {
     font-size: 20px;
     display:block;
-    width:700px;
+    width:600px;
     word-wrap:break-word;
 }
 .aboutme {
