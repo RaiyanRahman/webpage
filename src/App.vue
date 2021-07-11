@@ -62,6 +62,7 @@ export default {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index:1;
 }
 
 #app {
