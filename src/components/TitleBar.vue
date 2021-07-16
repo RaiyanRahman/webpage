@@ -14,10 +14,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .title {
-  margin-top: 10rem
+  padding-top: 10rem
 }
 h1 {
   text-align: center;
+  color: #cccbc5;
 }
 h3 {
   margin: 40px 0 0;

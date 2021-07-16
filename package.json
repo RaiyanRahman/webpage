@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "timeline-vuejs": "^1.1.7",
     "vue": "^2.6.11",
     "vuetify": "^2.5.6"
   },
