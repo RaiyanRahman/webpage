@@ -11,8 +11,8 @@
               Intelligent Systems lab at Ryerson University. I completed
               my bachelor's at the University of Toronto in computer science,
               while completing numerous work terms as a software engineer.
-              I am passionate about artificial intelligence, cybersecurity,
-              full-stack development and all things computer science.
+              I am passionate about machine learning, artificial intelligence,
+              cybersecurity, and all things computer science.
               I am also highly enthusiastic about teaching and have experience
               as a teaching assistant for freshman computer science courses at UofT.
               In my spare time I love watching films and playing video games, as well as
