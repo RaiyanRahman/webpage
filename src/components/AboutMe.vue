@@ -3,7 +3,7 @@
       <div class="inline-child-left">
           <img alt="Raiyan" src="../assets/raiyan.jpg" height="400">
           <v-row class="links">
-            <a target="_blank" href="mailto:raiyan.rahman01@outlook.com"><font-awesome-icon :icon="['fas', 'envelope']" style="color: black; font-size: 2em;  margin: 2px;" /></a>
+            <a href="mailto:raiyan.rahman01@outlook.com"><font-awesome-icon :icon="['fas', 'envelope']" style="color: black; font-size: 2em;  margin: 2px;" /></a>
             <a target="_blank" href="https://www.linkedin.com/in/raiyan-rahman/"><font-awesome-icon :icon="['fab', 'linkedin']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
             <a target="_blank" href="https://github.com/RaiyanRahman"><font-awesome-icon :icon="['fab', 'github']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
             <a target="_blank" href="https://www.instagram.com/sspairal/"><font-awesome-icon :icon="['fab', 'instagram']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
@@ -15,9 +15,12 @@
           <h2 style="color: #c4926b;">About Me</h2>
           <br/>
           <span class="about-desc">
-              I am a master's student at the Computer Vision and
-              Intelligent Systems lab at Ryerson University. I completed
-              my bachelor's at the University of Toronto in computer science,
+              I am a master's student at the
+              <a target="_blank" href="https://www.cs.ryerson.ca/~wangcs/cvis.html">
+              Computer Vision and Intelligent Systems lab
+              </a> at <a target="_blank" href="https://www.ryerson.ca/">Ryerson University</a>.
+              I completed my bachelor's at the <a target="_blank" href="https://www.utoronto.ca/">
+              University of Toronto</a> in computer science,
               while completing numerous work terms as a software engineer.
               I am passionate about machine learning, artificial intelligence,
               cybersecurity, and all things computer science.

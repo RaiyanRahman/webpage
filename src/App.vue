@@ -3,30 +3,30 @@
     <!-- <img alt="Spiral" src="./assets/spiral.png"> -->
     <TitleBar/>
     <div class="stickynav">
-      <v-btn text color="#cccbc5">
+      <a href="#" v-scroll-to="'#app'"><v-btn text color="#cccbc5">
         Home
-      </v-btn>
-      <v-btn text color="#cccbc5">
+      </v-btn></a>
+      <a href="#" v-scroll-to="'#AboutMe'"><v-btn text color="#cccbc5">
         About
-      </v-btn>
-      <v-btn text color="#cccbc5">
+      </v-btn></a>
+      <a href="#" v-scroll-to="'#Experience'"><v-btn text color="#cccbc5">
         Experience
-      </v-btn>
-      <v-btn text color="#cccbc5">
+      </v-btn></a>
+      <a href="#" v-scroll-to="'#Research'"><v-btn text color="#cccbc5">
         Research
-      </v-btn>
-      <v-btn text color="#cccbc5">
+      </v-btn></a>
+      <a href="#" v-scroll-to="'#Projects'"><v-btn text color="#cccbc5">
         Projects
-      </v-btn>
-      <v-btn text color="#cccbc5">
+      </v-btn></a>
+      <a href="#" v-scroll-to="'#Contact'"><v-btn text color="#cccbc5">
         Contact
-      </v-btn>
+      </v-btn></a>
     </div>
-    <AboutMe/>
-    <Experience/>
-    <Research/>
-    <Projects/>
-    <Contact/>
+    <AboutMe id="AboutMe" />
+    <Experience id="Experience" />
+    <Research id="Research" />
+    <Projects id="Projects" />
+    <Contact id="Contact" />
     <br/>
     <div class="footer">
       Built and designed by Raiyan Rahman.<br/>
@@ -73,6 +73,14 @@ export default {
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
 
 .stickynav {
   background-color: #242424;
