@@ -26,6 +26,13 @@
     <Experience/>
     <Research/>
     <Projects/>
+    <Contact/>
+    <br/>
+    <div class="footer">
+      Built and designed by Raiyan Rahman.<br/>
+      All rights reserved. ©
+    </div>
+    <br/>
   </div>
 </template>
 
@@ -35,6 +42,7 @@ import AboutMe from './components/AboutMe.vue';
 import Experience from './components/Experience.vue';
 import Research from './components/Research.vue';
 import Projects from './components/Projects.vue';
+import Contact from './components/Contact.vue';
 
 // TODO: Vue-ScrollTo package to add anchors to the webpage.
 // https://github.com/rigor789/vue-scrollTo?ref=madewithvuejs.com
@@ -52,7 +60,8 @@ export default {
     AboutMe,
     Experience,
     Research,
-    Projects
+    Projects,
+    Contact
   },
 
   data: () => ({
@@ -72,6 +81,11 @@ export default {
   position: sticky;
   top: 0;
   z-index:1;
+}
+
+.footer {
+  color: #cccbc5;
+  text-align: center;
 }
 
 #app {
