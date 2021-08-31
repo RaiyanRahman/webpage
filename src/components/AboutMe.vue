@@ -2,6 +2,14 @@
   <div class="aboutme">
       <div class="inline-child-left">
           <img alt="Raiyan" src="../assets/raiyan.jpg" height="400">
+          <v-row class="links">
+            <a target="_blank" href="mailto:raiyan.rahman01@outlook.com"><font-awesome-icon :icon="['fas', 'envelope']" style="color: black; font-size: 2em;  margin: 2px;" /></a>
+            <a target="_blank" href="https://www.linkedin.com/in/raiyan-rahman/"><font-awesome-icon :icon="['fab', 'linkedin']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
+            <a target="_blank" href="https://github.com/RaiyanRahman"><font-awesome-icon :icon="['fab', 'github']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
+            <a target="_blank" href="https://www.instagram.com/sspairal/"><font-awesome-icon :icon="['fab', 'instagram']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
+            <a target="_blank" href="https://letterboxd.com/raiyanrahman/"><font-awesome-icon :icon="['fas', 'film']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
+            <a target="_blank" href="https://psnprofiles.com/Sspairal"><font-awesome-icon :icon="['fab', 'playstation']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
+          </v-row>
       </div>
       <div class="inline-child-right">
           <h2 style="color: #c4926b;">About Me</h2>
@@ -116,6 +124,14 @@ img {
     margin-left: 3rem;
     margin-right: 5%;
     margin-top: 1rem;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .education {

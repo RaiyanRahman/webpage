@@ -3,8 +3,8 @@ import App from './App.vue'
 import vuetify from './plugins/vuetify'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faJsSquare, faVuejs, faGoogle, faNodeJs, faGithub,
-         faPython } from '@fortawesome/free-brands-svg-icons'
-import { faTerminal } from '@fortawesome/free-solid-svg-icons'
+         faPython, faLinkedin, faInstagram, faPlaystation } from '@fortawesome/free-brands-svg-icons'
+import { faTerminal, faFilm, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 library.add(faJsSquare)
@@ -14,6 +14,11 @@ library.add(faNodeJs)
 library.add(faGithub)
 library.add(faPython)
 library.add(faTerminal)
+library.add(faLinkedin)
+library.add(faInstagram)
+library.add(faPlaystation)
+library.add(faFilm)
+library.add(faEnvelope)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon);
 

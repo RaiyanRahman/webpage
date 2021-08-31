@@ -77,8 +77,8 @@ h1 {
     color: #c4926b;
 }
 .experience {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
     background-color: #4c4c4b;
 }
 .timeline-container {

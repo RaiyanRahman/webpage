@@ -31,8 +31,8 @@ export default {
 
 .research {
   background-color: #343434;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
   padding-left: 17%;
 }
 
