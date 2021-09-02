@@ -43,7 +43,7 @@ export default {
   outline-color: grey;
   outline-style: solid;
   outline-width: 1px;
-  width: 75%;
+  width: 90%;
 }
 
 .underlay {
@@ -87,7 +87,7 @@ img {
 }
 
 .paper-title {
-    padding-top: 2rem;
+    padding: 0.5rem;
     color: #bcbab9;
 }
 
