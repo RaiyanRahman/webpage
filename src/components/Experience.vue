@@ -142,7 +142,7 @@ main {
     &>span {
       @include clearfix();
       left: -25px;
-      height: 110%;
+      height: 100%;
       @include set-border(2px, $font-color, none);
     }
     &>span::before, &>span::after {
