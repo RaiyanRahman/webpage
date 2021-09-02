@@ -1,7 +1,7 @@
 <template>
   <div class="aboutme">
       <div class="inline-child-left">
-          <img alt="Raiyan" src="../assets/raiyan.jpg" height="400">
+          <img id="raiyan" alt="Raiyan" src="../assets/raiyan.jpg">
           <v-row class="links">
             <a href="mailto:raiyan.rahman01@outlook.com"><font-awesome-icon :icon="['fas', 'envelope']" style="color: black; font-size: 2em;  margin: 2px;" /></a>
             <a target="_blank" href="https://www.linkedin.com/in/raiyan-rahman/"><font-awesome-icon :icon="['fab', 'linkedin']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
@@ -95,7 +95,35 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+
+@media screen and (max-width:1200px) {
+  #raiyan {
+    display: block;
+    margin: auto;
+    height: 300px;
+  }
+
+  .aboutme {
+    flex-wrap: wrap;
+  }
+
+  .inline-child-left {
+    width: 100%;
+    display: flex;
+  }
+
+  .inline-child-right {
+    width: 100%;
+    padding-top: 20px;
+  }
+  
+  .education {
+    flex-wrap: wrap;
+  }
+}
+
 img {
+    height: 400px;
     outline-style: solid;
     outline-width: 3px;
 }
@@ -103,28 +131,32 @@ img {
 .about-desc {
     font-size: 19px;
     display:block;
-    width:600px;
+    width: 100%;
     word-wrap:break-word;
     color: #bcbab9;
 }
 
 .aboutme {
     background-color: #343434;
-    padding: 2rem 2rem 2rem 2rem;
+    padding-top: 2rem;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     margin-top: 10rem;
     display: flex;
 }
 
 .inline-child-left {
     display: inline-block;
-    margin-left: 10%;
+    margin-left: 5%;
     margin-right: 2%;
     margin-top: 4%;
+    margin-bottom: 4%;
 }
 
 .inline-child-right {
     display: inline-block;
-    margin-left: 3rem;
+    margin-left: 5%;
     margin-right: 5%;
     margin-top: 1rem;
 }

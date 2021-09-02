@@ -14,7 +14,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .title {
-  padding-top: 10rem
+  padding-top: 10%;
 }
 h1 {
   text-align: center;

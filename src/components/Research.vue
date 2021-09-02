@@ -87,7 +87,7 @@ img {
 }
 
 .paper-title {
-    padding: 0.5rem;
+    padding: 15px 0.5rem 0.5rem 0.5rem;
     color: #bcbab9;
 }
 
