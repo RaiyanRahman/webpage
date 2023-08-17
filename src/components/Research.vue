@@ -3,18 +3,28 @@
       <h1 style="color: #c4926b;">Research</h1>
       <br/>
       <!-- This is a single research paper block. -->
-      <div class="paper" v-on:click="readFile('./CSC413_Final_Project.pdf')">
+      <div class="paper" style="height: 80px;" v-on:click="window.open('https://openaccess.thecvf.com/content/CVPR2023W/AgriVision/html/Rahman_On_the_Real-Time_Semantic_Segmentation_of_Aphid_Clusters_in_the_CVPRW_2023_paper.html', '_blank')">
         <div class="underlay">
-          <img src="../assets/csc413-final-project-preview.png" alt="paper_image" class="image">
-          <h3 class="paper-title">Jarin. G, Rahman. R. (2020). Feature Visualization with AlexNet and ResNet</h3>
+          <img src="../assets/cvf.jpeg" style="height: 65px;" alt="paper_image" class="image">
+          <h3 class="paper-title" style="margin-top: 5px;">On the Real-Time Semantic Segmentation of Aphid Clusters in the Wild</h3>
         </div>
         <div class="overlay">
-          <div class="text">Final research paper for the graduate course CSC413: Neural Networks and Deep Learning at the University of Toronto, taken during the 2020 winter term.</div>
+          <div class="text">Raiyan Rahman, Christopher Indris, Tianxiao Zhang, Kaidong Li, Brian McCornack, Daniel Flippo, Ajay Sharda, Guanghui Wang; Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops, 2023, pp. 6298-6305</div>
+        </div>
+      </div>
+
+      <!-- This is a single research paper block. -->
+      <div class="paper" style="height: 80px;" v-on:click="window.open('https://openaccess.thecvf.com/content/CVPR2023W/AgriVision/html/Rahman_On_the_Real-Time_Semantic_Segmentation_of_Aphid_Clusters_in_the_CVPRW_2023_paper.html', '_blank')">
+        <div class="underlay">
+          <img src="../assets/ai2a.png" alt="paper_image" class="image" style="height: 65px;">
+          <h3 class="paper-title" style="margin-top: 3px;">An Intelligent System for Insects Detection and Management for Precision Agriculture</h3>
+        </div>
+        <div class="overlay">
+          <div class="text">Guanghui Wang, Raiyan Rahman, Tianxiao Zhang, Kaidong Li, Brian McCornack, Daniel Flippo, Ajay Sharda;</div>
         </div>
       </div>
     </div>
 </template>
-
 <script>
 export default {
   name: 'Research',
@@ -44,6 +54,8 @@ export default {
   outline-style: solid;
   outline-width: 1px;
   width: 90%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .underlay {

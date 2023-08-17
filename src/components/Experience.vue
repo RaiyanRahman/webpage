@@ -28,6 +28,22 @@ export default {
   data: () => ({
     experience: [
       {
+        "school": "Graduate Research Assistant",
+        "address": "Computer Vision and Intelligent Systems Lab",
+        "course": "Supervised by Dr. Richard Wang, conducted computer vision research for object detection and semantic segmentation settings. Research included automated autonomous vehicles, pest control systems, and food waste localization.",
+        "yearStart": "Sept 2021",
+        "yearEnd": "Aug 2023",
+        "link": "https://www.cs.torontomu.ca/~wangcs/research.html"
+      },
+      {
+        "school": "Research Software Developer",
+        "address": "Lincoln Alexander School of Law",
+        "course": "Worked under professor Jennifer Orange, creating and maintaining a web application that allows the exploration of TDSB sport data to promote gender equity.",
+        "yearStart": "Nov 2022",
+        "yearEnd": "Aug 2023",
+        "link": "http://say.znt.mybluehost.me/"
+      },
+      {
         "school": "Research Software Developer",
         "address": "MediaCAT",
         "course": "Worked under Dr. Alejandro Paz, creating and optimizing large-scale web crawlers to aid in his research.",

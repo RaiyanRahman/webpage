@@ -8,24 +8,25 @@
             <a target="_blank" href="https://github.com/RaiyanRahman"><font-awesome-icon :icon="['fab', 'github']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
             <a target="_blank" href="https://www.instagram.com/sspairal/"><font-awesome-icon :icon="['fab', 'instagram']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
             <a target="_blank" href="https://letterboxd.com/raiyanrahman/"><font-awesome-icon :icon="['fas', 'film']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
-            <a target="_blank" href="https://psnprofiles.com/Sspairal"><font-awesome-icon :icon="['fab', 'playstation']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
+            <a target="_blank" href="https://infinitebacklog.nl/users/sspairal"><font-awesome-icon :icon="['fab', 'playstation']" style="color: #00A1F1; font-size: 2em;  margin: 2px;" /></a>
           </v-row>
       </div>
       <div class="inline-child-right">
           <h2 style="color: #c4926b;">About Me</h2>
           <br/>
           <span class="about-desc">
-              I am a master's student at the
-              <a target="_blank" href="https://www.cs.ryerson.ca/~wangcs/cvis.html">
+              I am an MSc graduate from the
+              <a target="_blank" href="https://www.cs.torontomu.ca/~wangcs/cvis.html">
               Computer Vision and Intelligent Systems lab
-              </a> at <a target="_blank" href="https://www.ryerson.ca/">Ryerson University</a>.
-              I completed my bachelor's at the <a target="_blank" href="https://www.utoronto.ca/">
+              </a> at the <a target="_blank" href="https://www.torontomu.ca/cs/graduate/">Toronto Metropolitan University</a>.
+              I completed my undergrad at the <a target="_blank" href="https://www.utoronto.ca/">
               University of Toronto</a> in computer science,
               while completing numerous work terms as a software engineer.
+              My research focuses on computer vision applications in real world scenarios
+              like autonomous vehicles and other intelligent systems.
               I am passionate about machine learning, artificial intelligence,
-              cybersecurity, and all things computer science.
-              I am also highly enthusiastic about teaching and have experience
-              as a teaching assistant for freshman computer science courses at UofT.
+              and all things computer science. I am also highly enthusiastic about
+              teaching and science communication.
               In my spare time I love watching films and playing video games, as well as
               exploring more of what Toronto has to offer.
           </span>
@@ -75,16 +76,16 @@ export default {
         {
           "school":"University of Toronto",
           "address":"Honours Bachelor of Science with High Distinction",
-          "course":"Specialist in Computer Science, University of Toronto Scholars Scholarship",
+          "course":"Computer Science specializing in Software Engineering, University of Toronto Scholar",
           "yearStart":"2017",
           "yearEnd":"2021"
         }
       ],
       grad: [
         {
-          "school":"Ryerson University",
+          "school":"Toronto Metropolitan University",
           "address":"Master of Science - Computer Science",
-          "course":"Machine Learning and Computer Vision, Full Ryerson Graduate Fellowship",
+          "course":"Machine Learning and Computer Vision, TMU Graduate Fellowship",
           "yearStart":"2021",
           "yearEnd":"2023"
         }

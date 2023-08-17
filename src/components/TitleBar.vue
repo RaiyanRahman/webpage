@@ -1,7 +1,7 @@
 <template>
   <div class="title">
     <h1 style="font-family: Roboto; font-size: 56px;">Raiyan Rahman</h1>
-    <h1>Computer Scientist | Machine Learning Researcher</h1>
+    <h1>Machine Learning Engineer | Computer Vision Research</h1>
   </div>
 </template>
 
